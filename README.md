@@ -25,7 +25,7 @@
 1. Зайдите в веб-интерфейс grafana, используя авторизационные данные, указанные в манифесте docker-compose.
 1. Подключите поднятый вами prometheus, как источник данных.
 1. Решение домашнего задания — скриншот веб-интерфейса grafana со списком подключенных Datasource.
-![alt text](https://github.com/VN351/mon-02/raw/main/images/1-1.jpg)
+![alt text](https://github.com/VN351/mon-03/raw/main/images/1-1.jpg)
 ## Задание 2
 
 Изучите самостоятельно ресурсы:
@@ -48,13 +48,13 @@
   (node_filesystem_free_bytes{fstype!~"tmpfs|fuse.lxcfs", device="/dev/sda2"} / node_filesystem_size_bytes{fstype!~"tmpfs|fuse.lxcfs", device="/dev/sda2"}) * 100 
 
 Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.
-![alt text](https://github.com/VN351/mon-02/raw/main/images/1-2.jpg)
+![alt text](https://github.com/VN351/mon-03/raw/main/images/1-2.jpg)
 ## Задание 3
 
 1. Создайте для каждой Dashboard подходящее правило alert — можно обратиться к первой лекции в блоке «Мониторинг».
 1. В качестве решения задания приведите скриншот вашей итоговой Dashboard.
 
-![alt text](https://github.com/VN351/mon-02/raw/main/images/1-3.jpg)
+![alt text](https://github.com/VN351/mon-03/raw/main/images/1-3.jpg)
 
 ## Задание 4
 
